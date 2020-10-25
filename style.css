@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    background-color: black;
+  }
+  .hello{
+    margin-top: 0%;
+    font-family: 'Heebo', sans-serif;
+    color:  #44444430;
+    font-size: 200px;
+    position: fixed;
+    left: 0;
+    z-index: -1;
+}
+  .container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background-color: none;
+    transform-style: preserve-3d;
+    min-height: 90vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    margin: 20px;
+    
+  }
+  .title{
+      color: white;
+      
+  }
+  .photo {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo img {
+    width: 12rem;
+    z-index: 2;
+    border-radius: 50%;
+    transition: all 0.75s ease-out;
+  }  
+  .circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+      to right,
+      rgba(131,58,180,1),
+      rgba(255,0,0,1)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .info h1 {
+    font-size: 2.5rem;
+    transition: all 0.75s ease-out;
+  }
+  .info p {
+    font-size: 1.0rem;
+    padding: 1.5rem 0rem;
+    color: lightgray;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease-out;
+  }
+  .social a {
+    padding: 0.3rem 0.3rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+
+  }  
+  .social img{
+    width: 50%;
+  }
